@@ -1,11 +1,14 @@
-const Footer = () => {
+import "../css/Footer.css"
+export default function Footer() {
   return (
-    <>
-      <div className="footer">
-        <p>Todos los derechos reservados 2023</p>
-      </div>
-    </>
-  );
-};
+      <footer>
+      
+      <ul>
+          <li><i class="fa-solid fa-envelope"></i></li>
+          <li><i class="fa-brands fa-github"></i></li>
+      </ul>
 
-export default Footer;
+      <p>Todos los derechos reservados 2023</p>
+      </footer>
+  );
+}

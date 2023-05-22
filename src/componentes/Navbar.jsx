@@ -1,15 +1,14 @@
-import React from "react";
+import "../css/NavBar.css"
 
-function NavBar() {
+export default function Navbar() {
   return (
-    <nav className="barraDeNav">
-      <ol>
-        <li className="itemNavBar">Home</li>
-        <li className="itemNavBar">About us</li>
-        <li className="itemNavBar">Contac</li>
-      </ol>
+    <nav>
+      <ul>
+        <li>Home</li>
+        <li>Clima</li>
+        <li>Sobre Nosotras</li>
+        <li>Contacto</li>
+      </ul>
     </nav>
   );
 }
-
-export default NavBar;

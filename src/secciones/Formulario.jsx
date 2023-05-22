@@ -1,4 +1,7 @@
 import "../css/Formulario.css"
+
+
+
 const Formulario = () =>{
     return(
         <>
@@ -24,6 +27,8 @@ const Formulario = () =>{
             <input className="enviar cambioColor" type="submit" value="ENVIAR" />
             </div>
           </form>
+
+
         </>
     )
 };

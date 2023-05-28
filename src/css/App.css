@@ -1,3 +1,14 @@
-.tiempo{
-    background-color: blueviolet
-};
+*{
+    margin: 0;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+  
+  body{
+    background-color: #00B4D8;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #03045E;
+  }
+
+  

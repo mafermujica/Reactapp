@@ -3,12 +3,11 @@ import { Route, Routes } from 'react-router-dom';
 import "./css/App.css"
 
 import NavBar from './componentes/Navbar';
-import Contactanos from './componentes/Contactanos';
 import Footer from "./componentes/Footer";
-
 import Home from "./secciones/Home";
 import Formulario from "./secciones/Formulario";
-import Lista from "./secciones/Lista";
+import Sobrenosotras from './secciones/Sobrenosotras';
+import Clima from './secciones/Clima';
 
 
 
@@ -22,18 +21,17 @@ function App() {
               element={<Home/>} >
             </Route>
             <Route 
-              path="/contactanos" 
-              element={<Lista/>} >
+              path="/contacto" 
+              element={<Formulario/>} >
             </Route>
             <Route 
-              path="/about" 
-              element={<Contactanos />} >
-            </Route>
+              path="/Sobrenosotras" 
+              element={<Sobrenosotras />} >
+            </Route>  
             <Route 
-              path="/formulario" 
-              element={<Formulario />} >
-            </Route>
-            
+              path="/Clima" 
+              element={<Clima />} >
+            </Route>  
         </Routes>
       <Footer></Footer>  
 

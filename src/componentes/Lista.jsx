@@ -1,6 +1,7 @@
 import React from 'react';
 import "../css/Lista.css"
 
+
 const Lista = () => {
   const datos = [
     { name: 'Maria Torres', imageUrl: 'https://cdn.pixabay.com/photo/2022/04/12/19/31/woman-7128718_1280.png' },
@@ -25,5 +26,4 @@ const Lista = () => {
     </div>
   );
 };
-
 export default Lista;

@@ -1,12 +1,16 @@
-import Icons from "../componentes/Icons";
+import Welcome from '../componentes/Welcome';
+import ButtonWelcome from '../componentes/ButtonWelcome';
+import '../css/Home.css';
 
-const Home = () =>{
+
+export default function Home (){
     return(
         <>
-            <h1>Hola</h1>
-
-            <Icons></Icons>
+        <div className="homeContainer">
+        <h1 className="tituloHome">Home</h1>
+        <Welcome />
+        <ButtonWelcome />
+        </div>
         </>
     )
-};
-export default Home;
+}

@@ -1,0 +1,38 @@
+.climaContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tituloClima{
+    margin-top: 1em;   
+    margin-bottom: 1em;
+   }
+
+.climaCiudad{
+    display: flex;
+}
+
+.inputClima{
+    margin: 1.5em;
+    height: 2em;
+    width: 20em;
+    border: none;
+    border-radius: 10%;
+}
+
+.buttonClima{
+    margin: 1em;
+    height: 3em;
+    width: 4em;
+    border: none;
+    border-radius: 10%;
+    background-color: #90E0EF;
+}
+
+.climaCard{
+    margin: 2em;
+    background-color: #90E0EF;
+    width: 30em;
+    height: 30em;
+}

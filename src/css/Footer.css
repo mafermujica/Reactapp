@@ -4,17 +4,6 @@ footer{
     height: 6em;
     }
     
-    footer ul{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    }
-    
-    footer li{
-    list-style: none;
-    margin: 1em;
-    }
-    
     footer p{
     text-align: center;
     }

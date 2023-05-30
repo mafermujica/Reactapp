@@ -2,7 +2,7 @@ import { Route, Routes } from 'react-router-dom';
 
 import "./css/App.css"
 
-import NavBar from './componentes/Navbar';
+import Header from './componentes/Header';
 import Footer from "./componentes/Footer";
 import Home from "./secciones/Home";
 import Formulario from "./secciones/Formulario";
@@ -14,7 +14,7 @@ import Clima from './secciones/Clima';
 function App() {
   return (
     <>
-      <NavBar />
+      <Header />
         <Routes>
             <Route 
               path="/" 

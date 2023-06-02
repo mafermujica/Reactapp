@@ -43,18 +43,12 @@ const handleSumit = (e) => {
   return (
     <div>
       <h1>Clima</h1>
-      <SearchCountry handleSumit={handleSumit}/>
-      <div className='containerClima'>
-    <div className="">
-      <h1>Clima</h1>
-      <SearchCountry handleSumit={handleSumit}/>
-      <div className='container'>
-      <Cardclima data={data}/>
-      </div>
-    </div>
-    
-  
-  );
+          <SearchCountry handleSumit={handleSumit}/>
+          <div className='containerClima'>
+          <Cardclima data={data}/>
+          </div>
+        </div>
+    );
 }
 
 export default Clima;

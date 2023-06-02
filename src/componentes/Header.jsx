@@ -23,7 +23,6 @@ const Header = () => {
           </Nav.Link>
           <Nav.Link href="/Sobrenosotras">
             <RiInformationLine className="nav-icon" /> Sobre Nostras
-            <RiInformationLine className="nav-icon" /> About Us
           </Nav.Link>
           <Nav.Link href="/contacto">
             <RiMailLine className="nav-icon" /> Contacto

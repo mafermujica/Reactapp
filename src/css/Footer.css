@@ -1,11 +1,15 @@
 
 footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
     background-color: #0077B6;
-    height: 2em;
+    height: 4em;
+    border: 1.5em;
 }
     
 footer p{
-    margin-top: 20px;
     text-align: center;
  }
     

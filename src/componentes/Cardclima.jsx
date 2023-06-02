@@ -20,9 +20,8 @@ const Cardclima = ({data}) => {
     <h2>Ciudad:{data.city}</h2>
     <h4>Pais:{data.country}</h4>
     <h5>Temperatura:{data.temp}</h5>
+    <img src={image} alt="imagen-clima" className='imagenClima'/>
     <img src={image} alt="imagen-clima" />
-    
-    
     </div>
     )
 }

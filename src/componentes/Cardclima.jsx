@@ -12,14 +12,14 @@ const Cardclima = ({data}) => {
     data.temp <= 0 ? muyFrio:
     data.temp >= 1 && data.temp <= 15 ? frio:
     data.temp >= 16 && data.temp <= 25 ? templado:
-    data.temp > 25 ? caliente: ''
+    data.temp > 25 ? caliente: '';
 
 
     return (
     <div>
-    <h2>Ciudad:{data.city}</h2>
-    <h4>Pais:{data.country}</h4>
-    <h5>Temperatura:{data.temp}</h5>
+    <h2>Ciudad: {data.city}</h2>
+    <h4>País: {data.country}</h4>
+    <h5>Temperatura: {data.temp} °C</h5>
     <img src={image} alt="imagen-clima" className='imagenClima'/>
     </div>
     )

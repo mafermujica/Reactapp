@@ -14,10 +14,7 @@
 }
 
 .imagenHome{
-    width: 400px;
-    height: 400px;
-    border-radius: 200px;
-    border-style: solid;
+    width: 500px;
 }
 
 .buttonHome{
@@ -29,6 +26,10 @@
     background-color: #90E0EF;
 }
 
+.cambioColor:hover {
+    box-shadow: 0px 0px 5px 1px black;
+}
+
 .link{
     text-decoration: none;
     color: #03045E;
@@ -36,5 +37,5 @@
   }
   
   .link:hover{
-    color: #00B4D8;
+    color: #0d58e2;
   }

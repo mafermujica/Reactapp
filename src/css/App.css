@@ -1,14 +1,15 @@
 *{
     margin: 0;
   }
-  
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
-  
+    
   body{
-    background-color: #00B4D8;
-    font-family: 'Roboto', sans-serif;
+    background-image: url('../Imagenes/Cielo3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
     font-weight: bold;
-    color: #03045E;
+    color: #111111;
   }
 
   

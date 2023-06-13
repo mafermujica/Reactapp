@@ -1,5 +1,6 @@
 import SearchCountry from '../componentes/SearchCointry';
 import Cardclima from '../componentes/Cardclima';
+import Api from '../componentes/Api';
 import React, {useEffect, useState} from 'react';
 import getApiInfo from '../action/getApiInfo';
 import '../css/Clima.css';
@@ -11,8 +12,6 @@ function Clima () {
     city: '',
     country: '',
     temp: '',
-    temp_max: '',
-    temp_min: '',
   })
 
   const [city, setCity] = useState('')
@@ -44,10 +43,11 @@ const handleSumit = (e) => {
     <div>
       <h1>Clima</h1>
           <SearchCountry handleSumit={handleSumit}/>
-          <div className='containerClima'>
-          <Cardclima data={data}/>
-          </div>
-        </div>
+            <div className='containerClima'>
+              <Cardclima data={data}/>
+            </div>
+          <Api />
+    </div>
     );
 }
 
